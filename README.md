@@ -1,4 +1,5 @@
 # 자바스크립트 기본문법
+[모던 JavaScript 튜토리얼](https://ko.javascript.info) 내용 정리
 ## 코드 구조
 ``` javascript
 //구문은 세미콜론 기준으로 구분
@@ -113,14 +114,14 @@ switch(x) {
 ### 함수 선언문
   ``` javascript
   function name(parameter1, parameter2 = default, ... parameterN) {
-  // 함수 본문
+    // 함수 본문
   }
   name(parameter1, parameter2, ... parameterN); //함수 호출
   ```
 ### 함수 표현식
   ``` javascript
   let name = function(parameter1, parameter2) {
-  // 함수 본문
+    // 함수 본문
   };
   name(parameter1, parameter2); //함수 호출
   ```
@@ -131,8 +132,8 @@ switch(x) {
 
   // 중괄호{ ... } 사용 시 본문에 여러 줄의 코드 작성 가능. return문 필수.
   let sum = (a, b) => {
-  // ...
-  return a + b;
+    // ...
+    return a + b;
   }
 
   // 인수가 없는 경우
